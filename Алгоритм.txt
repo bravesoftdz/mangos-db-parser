@@ -1,0 +1,20 @@
+Creatures:
+
+1. Парсим базу creature_template. Получаем:
+	- SQL-файл для дополнения UDB базы недостающими кричурами из YTDB
+	- Список entry кричуров, которых мы достали из YTDB
+	- Список кричуров, которые отличаются в UDB и YTDB (сверяем по entry + name)
+
+2. Парсим базу creature_template_addon. Достаем:
+	- Все записи для кричуров одинаковых в UDB и YTDB
+	- Все записи для кричуров выдранных из YTDB
+
+3. Парсим базу creature_questrelation. Принцип - выше.
+
+4. Парсим базу creature_onkill_reputation.
+
+5. Парсим creature_movement
+
+6. Парсим creature_model_info
+
+7. 
